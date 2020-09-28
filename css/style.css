@@ -1,5 +1,5 @@
 #Contenido{
-    font-family: Cursive;
+    
     font-size: 15px;
     padding: 10px;
 }
@@ -8,7 +8,47 @@
     text-align: center;
 }
 
-.titulo{
-    font-family: cursive;
-    color: blueviolet;
+
+table,th,td{
+    
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+
+table{
+    width: 90%;
+    background-color: ivory;
+    margin: 60px;
+}
+
+th,td{
+    padding: 09px;
+}
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.titlef2{
+    text-align: center;
+}
+
+.subtitle{
+    text-align: center;
+    margin: 100px;
+}
+body{
+    margin: 55px;
+}
+#imagen{
+    text-align: center;
+
+}
+#imagen2{
+    float: left;
+}
+
+img{
+    border-radius: 20px;
 }
