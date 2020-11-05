@@ -9,21 +9,23 @@
 }
 
 
-table,th,td{
-    
-    border: 1px solid black;
-    border-collapse: collapse;
-
-}
-
-table{
-    width: 90%;
-    background-color: ivory;
+.table{
+    width: 100%;
+    background-color: black;
     margin: 60px;
+    border: 2px solid #000;
+    
 }
 
 th,td{
-    padding: 09px;
+    width: 25%;
+   text-align: left;
+   vertical-align: top;
+   border: 2px solid #000;
+   border-collapse: collapse;
+   padding: 0.3em;
+   caption-side: bottom;
+   
 }
 
 *{
@@ -37,6 +39,7 @@ th,td{
 .subtitle{
     text-align: center;
     margin: 100px;
+    color: black;
 }
 body{
     margin: 55px;
@@ -49,7 +52,9 @@ body{
     float: left;
 }
 
-img{
-    border-radius: 20px;
-}
 
+.img{
+    border-style: solid;
+    border-color: black;
+    border-radius: 100px !important;
+}
