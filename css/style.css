@@ -1,60 +1,20 @@
-#Contenido{
-    
-    font-size: 15px;
-    padding: 10px;
-}
-
-#Cabecera{  
-    text-align: center;
-}
-
-
-.table{
+#footer{
+    background-color: grey;
+    color: white;
     width: 100%;
-    background-color: black;
-    margin: 60px;
-    border: 2px solid #000;
-    
-}
-
-th,td{
-    width: 25%;
-   text-align: left;
-   vertical-align: top;
-   border: 2px solid #000;
-   border-collapse: collapse;
-   padding: 0.3em;
-   caption-side: bottom;
-   
-}
-
-*{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.titlef2{
     text-align: center;
+    height: 30px;
+    padding-top: 5px;
 }
 
-.subtitle{
+h2{
     text-align: center;
-    margin: 100px;
-    color: black;
+    background-color: #fbc02d;
+    height: 50px;
+    padding-top: 10px;
+    border-radius: 15px;
 }
-body{
-    margin: 55px;
-}
-#imagen{
+.media{
     text-align: center;
-
-}
-#imagen2{
-    float: left;
-}
-
-
-.img{
-    border-style: solid;
-    border-color: black;
-    border-radius: 100px !important;
+    justify-content: center;
 }

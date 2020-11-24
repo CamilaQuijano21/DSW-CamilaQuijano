@@ -1,18 +1,19 @@
 <html>
     <head>
+        <title>Recurso 1</title>
+        <meta charset="UTF-8">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <!-- Our Custom CSS -->
-        <link rel="stylesheet" href="sidebarStyle.css">
-       <link rel="stylesheet" type="text/css" href="css/sidebarStyle.css">       
+        <link rel="stylesheet" href="./css/sidebarStyle.css">
+       <link rel="stylesheet" type="text/css" href="./css/style.css">       
     </head>
     <body>
         <div class="wrapper">
             <!-- Sidebar Holder -->
             <nav id="sidebar">
-                <div class="sidebar-header">
+                <div class="sidebar-header" style="text-align: center;">
                     <h3>OVI</h3>
                 </div>
-
                 <ul class="list-unstyled components">
                     <li>
                         <a class="active" href="Index.html">Inicio</a>
@@ -32,8 +33,9 @@
                     <li>
                         <a href="#autoevalSubmenu" data-toggle="collapse" aria-expanded="false">AutoEvaluación</a>
                         <ul class="collapse list-unstyled" id="autoevalSubmenu">
-                            <li><a href="#">Auto Evaluación 1</a></li>
-                            <li><a href="#">Auto Evaluación 2</a></li>
+                            <li><a href="./Autoevaluacion1.html">Auto Evaluación 1</a></li>
+                            <li><a href="./Autoevaluacion2.html">Auto Evaluación 2</a></li>
+                            <li><a href="./Autoevaluacion3.html">Evaluación sitio</a></li>
                         </ul>
                     </li>
                     <li>
@@ -42,32 +44,29 @@
                    
                 </ul>
             </nav>
-            <div id="content">   
-                <div class="container">
-                    <div class="row" style="padding-bottom: 20px;">
-                        <img src="./Images/CssImages/Unad.png" >
-                        
+            <div id="content">
+                    <div class="row" >
+                        <div class="col-12">
+                            <img src="./Images/CssImages/Unad.png">
+                        </div>                        
                     </div>
                     <div class="row">
-                        <div class="col-sm-6">
+                        <div class="col-lg-9">
                             <!-- begin content -->
-
-
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/KTa5WUWU1lk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-                              <!-- content end -->
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/KTa5WUWU1lk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <!-- content end -->
                         </div>
-                        <div class="col-sm-3">
+                        <div class="col-lg-3">
                             <h3>Lateral de twitter</h3>
                             <p>
                                 <a class="twitter-timeline" data-height="430" href="https://twitter.com/UniversidadUNAD">Tweets by alcaldiabquilla </a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
                             </p>
                         </div>
                     </div>
-                </div>           
-            </div>
-            
+                    <div id="footer" class="row">
+                        Creado Por Maria Camila Quijano
+                    </div>   
+            </div>            
         </div>
     </body>
     <!-- jQuery CDN -->
