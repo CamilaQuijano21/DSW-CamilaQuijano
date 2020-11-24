@@ -1,18 +1,19 @@
 <html>
     <head>
+        <title>Concepto 1</title>
+        <meta charset="UTF-8">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <!-- Our Custom CSS -->
-        <link rel="stylesheet" href="sidebarStyle.css">
-       <link rel="stylesheet" type="text/css" href="css/sidebarStyle.css">       
+        <link rel="stylesheet" href="./css/sidebarStyle.css">
+       <link rel="stylesheet" type="text/css" href="./css/style.css">       
     </head>
     <body>
         <div class="wrapper">
             <!-- Sidebar Holder -->
             <nav id="sidebar">
-                <div class="sidebar-header">
+                <div class="sidebar-header" style="text-align: center;">
                     <h3>OVI</h3>
                 </div>
-
                 <ul class="list-unstyled components">
                     <li>
                         <a class="active" href="Index.html">Inicio</a>
@@ -21,6 +22,7 @@
                         <a href="#conceptosSubmenu" data-toggle="collapse" aria-expanded="false">Conceptos</a>
                         <ul class="collapse list-unstyled" id="conceptosSubmenu">
                             <li><a href="Conceptos1.html">CSS</a></li>
+                            
                         </ul>
                     </li>
                     <li>
@@ -31,23 +33,25 @@
                     <li>
                         <a href="#autoevalSubmenu" data-toggle="collapse" aria-expanded="false">AutoEvaluación</a>
                         <ul class="collapse list-unstyled" id="autoevalSubmenu">
-                            <li><a href="#">Auto Evaluación 1</a></li>
-                            <li><a href="#">Auto Evaluación 2</a></li>
+                            <li><a href="./Autoevaluacion1.html">Auto Evaluación 1</a></li>
+                            <li><a href="./Autoevaluacion2.html">Auto Evaluación 2</a></li>
+                            <li><a href="./Autoevaluacion3.html">Evaluación sitio</a></li>
                         </ul>
                     </li>
                     <li>
                         <a href="Autor.html">Autor</a>
+                    </li>
                    
                 </ul>
             </nav>
-            <div id="content">   
-                <div class="container">
-                    <div class="row" style="padding-bottom: 20px;">
-                        <img src="./Images/CssImages/Unad.png" >
-                        
+            <div id="content">
+                    <div class="row" >
+                        <div class="col-12">
+                            <img src="./Images/CssImages/Unad.png">
+                        </div>                        
                     </div>
                     <div class="row">
-                        <div class="col-sm-6">
+                        <div class="col-lg-9">
                             <!-- begin content -->
 
                             <h2 class ="subtitle">CSS - Hoja de estilo en cascada </h2>
@@ -55,11 +59,15 @@
                             estructurado, es tambien muy usado para definir el diseño visual de los docuemntos web o interfaces de 
                             usuario escritas en HTML(lenguaje de marcas de hipertexto),con ayuda de css podemos crear nuestro propio 
                             sitio web, es una tecnologia usada por muchos sitios web con el fin de hacerlas mas atractivas a el usuario </P>
-                            <img src="Images/CssImages/css3.jpg" alt="Girl in a jacket" width="400" height="350" >
+                            <div class="media">
+                                <img src="Images/CssImages/css3.jpg" alt="Girl in a jacket" width="400" height="350" >
+                            </div>
                             <h2 class ="subtitle" > CSS interno </h2>
                             <div>
                                    <br>
-                                <img class="img" src="Images/CssImages/Interno.png" alt="Girl in a jacket" width="400" height="300" style="border-radius: 20px "  >
+                                <div class="media">
+                                    <img class="img" src="Images/CssImages/Interno.png" alt="Girl in a jacket" width="400" height="300" style="border-radius: 20px "  >
+                                </div>
                                 <br>
                                 <br>                                  
                                 <p>  Una hoja de estilo interna se puede usar en una sólo página con un estilo único.
@@ -72,8 +80,10 @@
                 
                              <div>
                                  <br>
+                                <div class="media">
+                                    <img src="Images/CssImages/Externo.png" alt="Girl in a jacket" width="400" height="350" style="border-radius: 20px "> 
+                                </div>
                                 
-                                <img src="Images/CssImages/Externo.png" alt="Girl in a jacket" width="400" height="350" style="border-radius: 20px "> 
                                <br>
                                <br>   
                              <p > Con una hoja de estilos externa, puedes cambiar el aspecto de un sitio web completo cambiando 
@@ -88,7 +98,7 @@
                             <br>
                                                         <p>En CSS, los selectores son patrones que se utilizan para seleccionar los elementos que desea
                                  aplicar estilo,a continuacion mencionaremos algunos de los selectores de CSS3</p>
-                                 <table class="table">
+                                 <table class="table table-hover">
                                      <tr>
                                          <th>Selector</th>
                                          <th>Ejemplo</th>
@@ -125,26 +135,19 @@
                                          <td>Selecciona el enlace activo</td>
                                      </tr>
                                  </table>
-                
-
-
-
-
-
-
-
-                                        <!-- content end -->
+                                 <!-- content end -->
                         </div>
-                        <div class="col-sm-3">
+                        <div class="col-lg-3">
                             <h3>Lateral de twitter</h3>
                             <p>
                                 <a class="twitter-timeline" data-height="430" href="https://twitter.com/UniversidadUNAD">Tweets by alcaldiabquilla </a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
                             </p>
                         </div>
                     </div>
-                </div>           
-            </div>
-            
+                    <div id="footer" class="row">
+                        Creado Por Maria Camila Quijano
+                    </div>   
+            </div>            
         </div>
     </body>
     <!-- jQuery CDN -->
